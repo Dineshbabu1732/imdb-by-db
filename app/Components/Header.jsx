@@ -13,7 +13,7 @@ export default function Header() {
       <div className="text-2xl flex items-center space-x-5">
         <DarkModeSwitch/>
         <Link href='/'>
-<h2><span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">I'M_Db</span><span className="text-xl hidden sm:inline">Clone</span></h2>
+<h2><span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">IM_Db</span><span className="text-xl hidden sm:inline">Clone</span></h2>
         </Link>
       </div>
     </div>
