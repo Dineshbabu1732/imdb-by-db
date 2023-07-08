@@ -9,9 +9,10 @@ export default function SearchBox() {
   function handleSubmit(e){
 e.preventDefault();
 if(!search) return;
+router.push(`/search/${search}`);
   }
   return (
-    <form onClick={handleSubmit} action="" className="flex max-w-6xl mx-auto justify-between items-center px-5">
+    <form onSubmit={handleSubmit} action="" className="flex max-w-6xl mx-auto justify-between items-center px-5">
       <input type="text" placeholder="Search Keywords..." className="w-full h-14 rounded-sm placeholder-gray-500 outline-none bg-transparent"
       value={search} onChange={(e)=> setSearch(e.target.value)
 
